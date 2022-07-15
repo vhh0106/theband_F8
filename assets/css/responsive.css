@@ -1,0 +1,94 @@
+/* PC */
+@media (min-width: 1024px){
+    #header #search {  
+        display: block;
+    }
+}
+
+/* TABLET */
+@media (min-width:740px ) and (max-width: 1023px) {
+ 
+    
+
+    #nav{
+        display: block;
+    } 
+
+    #nav > li{
+        display: block;
+    }
+    #nav > li > a{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    
+    #header #menuMobile{
+        display: block;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+    #nav .moreitem{
+        position: initial;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px){
+    
+    .m-s-full-width,
+    .m-s-col-full{
+        width: 100% ;
+    }
+
+    .m-s-mt-8{
+        margin-top: 8px;
+    }
+
+    .m-s-mt-16px{
+        margin-top: 16px;
+    }
+
+    
+    #nav{
+        display: block;
+    }
+   
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav > li > a{
+        display: block;
+    }
+   
+    #header{
+        overflow: hidden;
+    }
+
+    #header #menuMobile{
+        display: block;
+    }
+
+    #nav .moreitem{
+        position: initial;
+    }
+
+    #nav .moreitem a{
+        padding: 11px 40px;
+        background-color: gray;
+    }
+    }
+
+    #content .imgmember {
+        width: 50%;
+    }
+
+    
+    
